@@ -10,13 +10,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 13rem 0 13rem;
-    background-image: url(/images/bg-pattern-desktop.svg);
-    background-position: left;
+    padding: 0 15rem 0 15rem;
+    background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-}
+    background-image: url(/images/bg-pattern-desktop.svg), linear-gradient(135deg, hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+ }
 #contentContainer .logo {
     padding-top: 4rem;
     padding-bottom: 7rem;
@@ -34,7 +33,7 @@ h1 {
     margin-right: auto;
     margin-bottom: 0;
     font-size: 4rem;
-    line-height: 1.2;
+    line-height: 1;
     letter-spacing: 15px;
     font-weight: 400;
     text-transform: uppercase;
@@ -45,7 +44,7 @@ h1 span {
 }
 p {
     padding-bottom: 1.5rem;
-    line-height: 2;
+    line-height: 1.7;
     color: hsl(0, 36%, 70%);
 }
 button {
@@ -71,4 +70,7 @@ form {
 }
 form input {
     padding-left: 2rem;
+    color: hsl(0, 36%, 70%);
+    font-size: 0.9rem;
+    background-color: #fff7f7;
 }
