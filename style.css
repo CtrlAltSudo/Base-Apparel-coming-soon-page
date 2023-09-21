@@ -74,3 +74,6 @@ form input {
     font-size: 0.9rem;
     background-color: #fff7f7;
 }
+.formErr {
+    border: 1px red solid;
+}
