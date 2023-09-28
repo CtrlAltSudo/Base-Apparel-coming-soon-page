@@ -77,3 +77,9 @@ form input {
 .formErr {
     border: 1px red solid;
 }
+
+@media only screen and (max-width: 375px) {
+    main {
+      flex-direction: column-reverse;
+    }
+  }
