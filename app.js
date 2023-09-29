@@ -1,5 +1,6 @@
 const form = document.querySelector("#email");
 
+
 form.addEventListener("input", inputErr);
 
 function inputErr() {
@@ -8,5 +9,6 @@ function inputErr() {
     } else {
         console.log("it's not valid")
         form.classList.add("formErr")
+        
     }
 }

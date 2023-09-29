@@ -74,6 +74,14 @@ form input {
     font-size: 0.9rem;
     background-color: #fff7f7;
 }
+form p {
+    padding-left: 2rem;
+    color:  hsl(0, 93%, 68%);
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    display: none;
+}
 .formErr {
     border: 1px red solid;
 }
@@ -81,5 +89,27 @@ form input {
 @media only screen and (max-width: 375px) {
     main {
       flex-direction: column-reverse;
+    }
+    #containerImg .deskImg {
+        display: none;
+    } 
+    #containerImg .mobileImg {
+        display: block;
+        width: 5rem;
+        height: 5rem;
+    }
+    #contentContainer {
+        padding: 0;
+        text-align: center;
+    }
+    button {
+        position: absolute;
+        left: 15.7rem;
+    }
+    input {
+        width: 18rem;
+    }
+    form {
+        margin: 0 auto;
     }
   }
