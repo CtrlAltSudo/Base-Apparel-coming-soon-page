@@ -75,7 +75,10 @@ form input {
     padding-left: 2rem;
     font-size: 0.9rem;
     background-color: #fff7f7;
-    background: url(images/icon-error.svg) no-repeat scroll 19rem;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: 1.4rem;
+    background-position: right 110px center;
 }
 
 #formErrMsg {
@@ -111,6 +114,7 @@ padding-right: 2rem;
         text-align: center;
         background-color: hsl(0, 100%, 98%);
         background-image: none;
+        padding-bottom: 5rem;
     }
     button {
         position: absolute;
@@ -119,11 +123,8 @@ padding-right: 2rem;
     }
     input {
         width: 18rem;
-        margin-bottom: 5rem;
     }
-    form input {
-        background: url(images/icon-error.svg) no-repeat scroll 14rem;
-    }
+
     form {
         margin: 0 auto;
         position: relative;
@@ -141,5 +142,15 @@ padding-right: 2rem;
     p {
         padding: 0 2rem 1.5rem 2rem;
     }
-
+    #formErrMsg {
+        margin: 0;
+        padding: 0;
+    }
+    form input {
+        background-position: right 80px center;
+    }
+    #formErrMsg {
+        text-align: left;
+        padding-left: 10%;
+    }
   }
