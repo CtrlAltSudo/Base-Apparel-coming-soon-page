@@ -15,7 +15,7 @@ main {
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    background-image: url(/images/bg-pattern-desktop.svg), linear-gradient(135deg, hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+    background-image: url(./images/bg-pattern-desktop.svg), linear-gradient(135deg, hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
  }
 #contentContainer .logo {
     padding-top: 4rem;

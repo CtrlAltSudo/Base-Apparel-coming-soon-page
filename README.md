@@ -1,6 +1,6 @@
 <h1 align="center">Base Apparel Coming Soon Page </h1>
-<p align="center"> <a align="center" href="https://ctrlaltsudo.github.io/faq-accordion-card/">Live Demo</a><p>
-<p align="center"> <a align="center" href="https://www.frontendmentor.io/solutions/faq-accordion-card-x33IKevjA3">Solution Page</a><p>
+<p align="center"> <a align="center" href="https://ctrlaltsudo.github.io/Base-Apparel-coming-soon-page/">Live Demo</a><p>
+<p align="center"> <a align="center" href="https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-UUyybDAyqP">Solution Page</a><p>
 <h2 align="center">Project Screenshot<h2>
 <p align="center">
   <img src="./images/screenshot.png" alt="project screen shot"></img>
